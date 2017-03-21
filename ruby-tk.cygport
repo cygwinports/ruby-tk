@@ -1,0 +1,15 @@
+inherit rubygem
+
+NAME="ruby-tk"
+VERSION=0.1.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby Tcl/Tk interface"
+DESCRIPTION="Tk interface module for Ruby using tcltklib"
+
+PATCH_URI="0.1.2-cygwin-x11.patch"
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_tk_CONTENTS=${RUBYGEM_EXTDIR#/}" "${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
+ruby_tk_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
+
