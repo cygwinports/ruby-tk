@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-tk"
-VERSION=0.1.2
+VERSION=0.2.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby Tcl/Tk interface"
